@@ -1,0 +1,59 @@
+.service-section{
+    border: 1px solid #e6e6e6;
+    background: $white;
+}
+.service-process{
+   @include flex;
+    border-right: $border2;
+ img{
+        height: 3.3rem;
+        width: 4rem;
+        margin-right: 2rem;
+  }
+  .service-process-steps{
+      h4{
+            font-weight: $fw9;
+            font-size: $fs13;
+      }
+      p{
+        font-size: $fs14;
+        margin: 0;
+      }
+  }
+}
+.offer-section{
+    .collection-box{
+        a{
+            display: block;
+            overflow: hidden;
+            position: relative;
+
+           &::before,::after{
+                content: "";
+                bottom: 0;
+                left: 0;
+                position: absolute;
+                right: 0;
+                top: 0;
+                transition: $transitin9;
+                }
+                &:hover:before {
+                    background: rgba(255, 255, 255, 0.5) none repeat scroll 0 0;
+                    bottom: 50%;
+                    top: 50%;
+                    opacity: 1;
+                    filter: alpha(opacity=100);  }
+                 &:hover:after {
+                    background: rgba(255, 255, 255, 0.5) none repeat scroll 0 0;
+                    left: 51%;
+                    right: 50%; }
+           
+            img{
+                -webkit-transition: all 0.35s ease 0s;
+                -o-transition: all 0.35s ease 0s;
+                transition: all 0.35s ease 0s; 
+            }            
+
+        }
+    }
+}

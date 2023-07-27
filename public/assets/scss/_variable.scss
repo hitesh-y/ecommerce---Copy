@@ -1,0 +1,158 @@
+ // for css variable
+        // --white: #fff;
+        // --black: #222;
+        // --primary-dark: #0aa493;
+        // --secondary-light: #0aa493;
+    
+  // for scss variable
+  $white: #fff;
+  $black: #222;
+  $gray: #e6e6e6;
+  $gray1:#f2f2f2;
+  $gray2:#999;
+  $primary-color: #0aa493;
+  $secondary-color: #0aa493;
+  $tertiary-color: #ef4281;
+
+// animation transition variable
+  $transitin: all 0.1s ease-in-out;
+  $transitin2: all 0.2s ease-in-out;
+  $transitin3: all 0.3s ease-in-out;
+  $transitin4: all 0.4s ease-in-out;
+  $transitin5: all 0.5s ease-in-out;
+  $transitin6: all 0.6s ease-in-out;
+  $transitin7: all 0.7s ease-in-out;
+  $transitin8: all 0.8s ease-in-out;
+  $transitin9: all 0.9s ease-in-out;
+  $transitin10: all 0.10s ease-in-out;
+
+//  border variable
+   $border1:0.1rem solid $gray;
+   $border2:0.2rem solid $gray;
+   $border3:0.3rem solid $gray;
+   $border4:0.4rem solid $gray;
+   $border5:0.5rem solid $gray;
+
+ //  border -raidus variable
+   $brs1: 0.1rem;
+   $brs2: 0.2rem;
+   $brs3: 0.3rem;
+   $brs4: 0.4rem;
+   $brs5: 0.5rem;
+   $brs6: 0.6rem;
+   $brs7: 0.7rem;
+   $brs8: 0.8rem;
+   $brs9: 0.9rem;
+   $brs10: 1rem;
+   $brs50: 50%;
+
+//  font-wight  variable
+   $fw1: 100;
+   $fw2: 200;
+   $fw3: 300;
+   $fw4: 400;
+   $fw5: 500;
+   $fw6: 600;
+   $fw7: 700;
+   $fw8: 800;
+   $fw9: 900;
+
+//  font-size  variable
+   $fs5: .5rem;
+   $fs6: .6rem;
+   $fs7: .7rem;
+   $fs8: .8rem;
+   $fs9: .9rem;
+   $fs10: .1rem;
+   $fs11: 1.1rem;
+   $fs12: 1.2em;
+   $fs13: 1.3rem;
+   $fs14: 1.4rem;
+   $fs15: 1.5rem;
+   $fs16: 1.6rem;
+   $fs17: 1.7rem;
+   $fs18: 1.8rem;
+   $fs19: 1.9rem;
+   $fs20: 2rem;
+   $fs21: 2.1rem;
+   $fs22: 2.2rem;
+   $fs23: 2.3rem;
+   $fs24: 2.4rem;
+   $fs25: 2.5em;
+   $fs26: 2.6rem;
+   $fs27: 2.7rem;
+   $fs28: 2.8rem;
+   $fs29: 2.9rem;
+   $fs30: 3rem;
+
+
+//  alignment class 
+@mixin flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flex-start {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+@mixin flex-end {
+  display: flex;
+  justify-content: end;
+  align-items: right;
+}
+
+
+// Custom Scrollbars Mixin
+  
+// .classname{
+//     height:300px;
+//     overflow: auto;
+//     overflow-x:hidden;
+
+//    &::-webkit-scrollbar {
+//       width: 5px;
+//   }
+
+//    &::-webkit-scrollbar-thumb {
+//       background-image: linear-gradient(125deg, #0aa493 0%, #0aa493 100%);
+//       border-radius: 50px;
+//   }
+
+// }
+  
+// aroow Mixin
+@mixin arrows{
+   .owl-theme .owl-controls {
+    text-align: center;
+    position: absolute;
+    top: -67px;
+    right: 0;
+    left: auto;
+}
+.owl-buttons{
+        background:#fff;
+        padding-left: 14px;
+            .owl-prev, .owl-next{
+                border: none !important;
+                height: 40px !important;
+                line-height: 40px !important;
+                width: 40px !important;
+                border-radius: 0 !important;
+                color: #898383 !important;
+                
+            &:hover{
+                background-color: $primary-color;
+                color: $white !important;
+                }  
+            }
+        }
+}
+
+
+
+
+
+
+

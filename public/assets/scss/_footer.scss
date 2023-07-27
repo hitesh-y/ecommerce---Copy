@@ -1,0 +1,106 @@
+
+/* footer start */
+.footer-section{
+    background-color: $gray1;
+    padding: 2rem;
+    .footer-info{
+        a{
+            img{
+                margin-bottom: 2rem;
+            }
+        }
+        p{
+            font-size: $fs14;
+            margin-bottom: 2rem;
+        }
+    }
+  .footer-menu-links{
+        padding: 1rem 0;
+        font-weight: $fw8;
+        text-transform: uppercase;
+        h4{
+            color: $black;
+            font-weight: $fw8;
+            font-size:$fs14;
+        }
+    }
+    .footer-content{
+        ul{
+            li{
+                display: block;
+                a{
+                    color: #666665;
+                    font-size: 1.5rem;
+                    display: block;
+                    font-weight: $fw4;
+                    padding: 0.5rem 0;
+                    -webkit-transition: all .25s ease-in-out 0s;
+                    transition: all .25s ease-in-out 0s;
+                    position: relative;
+              
+                 &::before {
+                    content: "";
+                    display: block;
+                    width: .4rem;
+                    height: .4rem;
+                    border-radius: 50%;
+                    position: absolute;
+                    left: 0;
+                    top: calc(50% - .2rem);
+                    background: transparent;
+                    transition: 0.3s all ease 0s;
+                    -moz-transition: 0.3s all ease 0s;
+                    -webkit-transition: 0.3s all ease 0s;
+                    -ms-transition: 0.3s all ease 0s;
+                     opacity: 0;
+                }
+                &::before:hover{
+                        opacity: 1;
+                }
+                &:hover {
+                    padding-left: 1rem;
+                    opacity: 1;
+                    
+                }
+            }
+        }
+    }
+
+    }
+    }
+
+    .sociaright{
+        ul{
+           li{
+                a{
+                   color: #666665;
+                   font-size: 1.5rem;
+                   display: block;
+                   padding: .8rem 0;
+                   transition: all .25s ease-in-out 0s;
+                   text-decoration: none;
+                //    &:nth-child(1){color: #234ea7;}
+                //    &:nth-child(2){color: #c31845;}
+                 
+               }
+               i{
+                padding-right: 1rem;
+                font-size: 1.8rem;
+            }
+              
+            
+              
+           }
+       }
+   }
+   .copyright{
+            background: #0aa493;
+        p{
+            color: $white;
+        }
+        a{
+        img{
+            height: 3.2rem;
+         }
+        }
+   }
